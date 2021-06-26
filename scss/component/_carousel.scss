@@ -1,0 +1,12 @@
+@import "../base/variables";
+@import "../base/listasymapas";
+@import "../base/mixin";
+
+.contenedor-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pcarusel {
+    padding: $p-carousel;
+}

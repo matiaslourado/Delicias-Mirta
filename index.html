@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">  
+    <!-- Metaetiquetas -->
+    <meta name="description" content="Realizamos comida casera con mucho amor y dedicacion para disfrutar en familia, regalar o utilizarla para tu emprendimiento">
+    <meta name="keywords" content="pasteleria, tortas, cupcakes, budines, desayunos, meriendas, chocolastes, preparaciones saladas, cocina, panes, brownie, ricota, pastafrola, bombones, alfajores, chocotorta, pizza">
+    <!-- Protocolo open graph -->
+    <meta property="og:title" content="Delicias Mirta - Cocinando con el corazon">
+    <meta property="og:image" content="http://deliciasmirta.com/images/logo.png"> 
+    <meta property="og:author" content="Matias Lourado">
+    <meta property="og:description" content="Realizamos comida casera con mucho amor y dedicacion para que lo disfrutes con quien vos quieras">   
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Delicias Mirta - Preparamos comida con el corazón</title>
+</head>
+<body>
+    <!--  inicio menu con dropdown -->
+    <div class="container container-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#"><img src="images/logo.png" alt="Imagen Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light text-menu" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light text-menu" href="#productos" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item text-menu" href="#tortas">Tortas</a></li>
+                                <li><a class="dropdown-item text-menu" href="#cupcakes">Cupcakes</a></li>
+                                <li><a class="dropdown-item text-menu" href="#budines">Budines</a></li>
+                                <li><a class="dropdown-item text-menu" href="#chocolates">Chocolates</a></li>
+                                <li><a class="dropdown-item text-menu" href="#dym">Desayunos y meriendas</a></li>
+                                <li><a class="dropdown-item text-menu" href="#saladas">Preparaciones saladas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-menu" href="#nosotras">Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-menu" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <nav class="position-absolute top-10 end-0">
+                        <a href="https://www.whatsapp.com/"class="text-light text-menu" title="Acceso directo a nuestro Whatsapp">Hacer pedido<img src="images/wp.png" alt="logo Whatsapp" class="imagenS"></a>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--  fin menu con dropdown -->
+    <!-- inicio Carousel -->
+    <div class="container-fluid bg-secondary pcarusel contenedor-carousel" id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#tortas" title="Nos redirige a la seccion tortas"><img src="images/torta.jpg" alt="Imagen torta" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>TORTAS</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#cupcakes" title="Nos redirige a la seccion cupcakes"><img src="images/cupcakes.jpg" alt="Imagen cupcake" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>CUPCAKES</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#budines" title="Nos redirige a la seccion budin"><img src="images/budin.jpg" alt="Imagen budin" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>BUDINES</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#chocolates" title="Nos redirige a la seccion chocolates"><img src="images/chocolates.jpg" alt="Imagen chocolates" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>CHOCOLATES</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#dym"  title="Nos redirige a la seccion desayunos y meriendas"><img src="images/desayuno.jpg" alt="Imagen desayuno" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>DESAYUNOS Y MERIENDAS</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#saladas" title="Nos redirige a la seccion preparaciones saladas"><img src="images/salado.jpg" alt="Imagen preparaciones saladas" class="imagenL" loading="lazy"></a>
+                    <div class="carousel-caption d-l-none d-md-block d-xs-block">
+                        <h5>PREPARACIONES SALADAS</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>    
+    </div>
+    <!-- Fin Carousel -->
+    <hr size="3px" color="black">
+    <!-- Inicio seccion Nosotras -->
+    <section id="nosotras">
+        <div class="container-fluid row contenedor-nosotras">
+            <div class="col-6">
+                <img src="images/nosotras1.jpg" alt="Imagen de nosotras" class="imagen-nosotras"> <!-- imagen de las emprendedoras -->
+            </div>
+            <div class="col-6">
+                <h1>NOSOTRAS</h1>
+                <p>  <!-- Explicacion un poco sobre quienes somos y que hacemos -->
+                    <p class="nosotras-descripcion">¿Quienes somos? Madre e hija</p> 
+                    <p class="nosotras-descripcion">¿Porque el nombre? Llevamos el nombre de una persona muy importante que nos cuida desde el cielo</p>
+                    <p class="nosotras-descripcion">¿Que buscamos?  Llevar a sus hogares nuestras ricas preparaciones dulces y saladas </p>
+                    <p class="nosotras-descripcion">Esperamos que lo disfruten tanto como nosotras.</p>
+                </p>
+            </div>  
+        </div>     
+    </section>
+    <!-- Fin seccion Nosotras -->
+    <hr size="3px" color="black">
+    <!-- Inicio seccion ¨Productos  -->
+    <section id="productos" class="contenedor contenedor-productos">
+        <div>
+            <h3>PRODUCTOS</h3>      
+        </div>
+        <div id="tortas"> <!-- Seccion Tortas y minitortas -->
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <h4>TORTAS</h4>
+                    <p class="parrafo"> Las tortas pueden ser grandes o individuales</p>
+                    <ul class="lista">
+                        <li>Brownie</li>
+                        <li>Banana split</li>
+                        <li>Chocotorta bañada</li>
+                        <li>Chocolate y Dulce de leche</li>
+                        <li>Ricota</li>
+                        <li>Pastafrola (Membrillo/Batata)</li>
+                        <br>
+                        <li>Tortas personalidazas por encargo</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <img src="images/torta.jpg" alt="Imagen Torta" class="imagen-productos">
+                </div>
+            </div>
+        </div>
+        <hr size="3px" color="black">
+        <div id="cupcakes"> <!-- Seccion Cupcakes -->
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <img src="images/cupcakes.jpg" alt="Imagen Cupcake" class="imagen-productos">
+                </div>
+                <div class="col-6">
+                    <h4>CUPCAKES</h4>
+                    <p class="parrafo">Todos Los Cupcakes vienen en caja por 6 unidades
+                   La masa puede elegirse entre Vainilla, Chocolate o Marmolado
+                    </p>
+                    <ul class="lista">
+                        <li>Buttercream</li>
+                        <li>Lluvia de Colores</li>
+                        <li>Kit-Kat</li>
+                        <li>Oreo</li>
+                        <li>Chocolatin</li>
+                        <li>Kinder</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr size="3px" color="black">
+        <div id="budines"> <!-- Seccion Budines -->
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <h4>BUDINES</h4>
+                    <p class="parrafo">Pueden elegirlos en dos pesos: 300gr y 500gr</p>
+                    <ul class="lista">
+                        <li>Vainilla</li>
+                        <li>Naranja</li>
+                        <li>Limon</li>
+                        <li>Chocolate</li>
+                        <li>Marmolado</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <img src="images/budin.jpg" alt="Imagen Budin" class="imagen-productos">
+                </div>
+            </div>
+        </div>
+        <hr size="3px" color="black">
+        <div id="chocolates"> <!-- Seccion Chocolates -->
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <img src="images/chocolates.jpg" alt="Imagen Chocolates" class="imagen-productos">
+                </div>
+                <div class="col-6">
+                    <h4>CHOCOLATES</h4>
+                    <p class="parrafo">Aqui les traemos nuestra variedad mas golosa y la que mas nos gusta</p>
+                    <ul class="lista">
+                        <li>Bombones (15u)</li>
+                        <li>Paletas de chocolate rellenas</li>
+                        <li>Mini Chocotorta bañada (2u)</li>
+                        <li>Oreos bañadas (6u)</li>
+                        <li>Alfajores cordobeses (6u)</li>
+                        <li>Alfajores de chocolate (6u)</li>
+                        <li>Alfajores de maicena (6u)</li>
+                        <li>Coquitos con ddl (5u)</li>    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr size="3px" color="black">
+        <div id="dym"> <!-- Seccion Desayunos y Meriendas -->
+            <h4>DESAYUNOS Y MERIENDAS</h4>
+            <div>
+                <div class="row container-fluid">
+                    <div class="col-3">
+                        <p class="parrafo">Box chico 1</p>
+                        <ul class="lista">
+                            <li>Mini tarta ricota</li>
+                            <li>2 cupcakes</li>
+                            <li>4 alfajores de maicena</li>
+                            <li>4 oreos bañadas</li>
+                            <li>Jugo</li>
+                        </ul>    
+                    </div>
+                    <div class="col-3">
+                        <p class="parrafo">Box chico 2</p>
+                        <ul class="lista">
+                            <li>Mini pastafrola</li>
+                            <li>2 cupcakes</li>
+                            <li>Cuadrado de brownie</li>
+                            <li>2 mini chocotortas bañadas</li>
+                            <li>jugo</li>
+                        </ul>
+                    </div> 
+                    <div class="col-3">
+                        <p class="parrafo">Box chico 3</p>
+                        <ul class="lista">
+                            <li>Mini torta brownie</li>
+                            <li>2 alfajores corsobeses</li>
+                            <li>masitas de limon</li>
+                            <li>5 coquitos rellenos de ddl</li>
+                            <li>Jugo</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <p class="parrafo">Box chico 4</p>
+                        <ul class="lista">
+                            <li>Mini torta banana split</li>
+                            <li>4 oreos bañadas</li>
+                            <li>4 alfajores de maicena</li>
+                            <li>Masitas de limon</li>
+                            <li>Jugo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row container-fluid">
+                    <div class="col-3">
+                        <p class="parrafo">Box grande 1</p>
+                        <ul class="lista">
+                            <li>Mini torta brownie</li>
+                            <li>Budin 300gr</li>
+                            <li>6 alfajores de maicena</li>
+                            <li>Masitas de limon</li>
+                            <li>2 mini chocotortas bañadas</li>
+                            <li>Jugo</li>
+                        </ul> 
+                    </div>
+                    <div class="col-3">
+                        <p class="parrafo">Box grande 2</p>
+                        <ul class="lista">
+                            <li>Mini torta banana split</li>
+                            <li>Budin 300gr</li>
+                            <li>4 alfajores cordobeses</li>
+                            <li>masitas de limon</li>
+                            <li>4 oreo bañadas</li>
+                            <li>Jugo</li>
+                        </ul>
+                    </div> 
+                    <div class="col-3">
+                        <p class="parrafo">Box grande 3</p>
+                        <ul class="lista">
+                            <li>Mini ricota</li>
+                            <li>Cuadrado brownie</li>
+                            <li>4 cupcakes</li>
+                            <li>4 alfajores cordobeses</li>
+                            <li>2 mini chocotorta bañadas</li>
+                            <li>Jugo</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <p class="parrafo">Box grande 4</p>
+                        <ul class="lista">
+                            <li>Mini pastafrola</li>
+                            <li>6 alfajores de maicena</li>
+                            <li>4 cupcakes</li>
+                            <li>4 oreos bañadas</li>
+                            <li>5 coquitos rellenos de ddl</li>
+                            <li>Jugo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr size="3px" color="black">
+        <div id="saladas"> <!-- Seccion Preparaciones Saladas -->
+            <div class="row container-fluid">
+                <div class="col-6">
+                    <img src="images/salado.jpg" alt="Imagen productos salados" class="imagen-productos">
+                </div>
+                <div class="col-6">
+                    <h4>PREPARACIONES SALADAS</h4>
+                    <ul class="lista">
+                        <li>Pizza tomate</li>
+                        <li>Pizza cebolla</li>
+                        <li>Pizza mixta</li>
+                        <li>Panes de hamburguesa (4u)</li>
+                        <li>Panes saborizados</li>
+                        <li>Bastones de queso</li>
+                        <li>Pizzetas (12u)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin seccion ¨Productos  -->
+    <hr size="3px" color="black">
+    <!-- Inicio footer -->
+    <footer class="row bg-dark p-3">
+        <nav class="col-3"> <!-- el menu como lista abajo a la izq-->
+            <ul>
+                <li><a href="#home"class="text-light">Home</a></li>
+                <li><a href="#nosotras"class="text-light">Nosotras</a></li>
+                <li><a href="#productos"class="text-light">Productos</a></li>
+                <li><a href="#contacto"class="text-light">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="col-3 text-light">
+            <h5>Siguenos</h5>
+            <!-- Imagen de FB que conecte con FB -->
+            <a href="https://www.facebook.com/" title="Nos redirige a nuestra pagina de facebook"><img src="images/fb.png" alt="logo Instagram" class="imagenS"></a>
+            <!-- Imagen de IG que conecte con IG -->
+            <a href="https://www.instagram.com/" title="Nos redirige a nuestra pagina de instagram"><img src="images/ig.png" alt="logo Instagram" class="imagenS"></a>
+        </div>
+        <div class="col-3" id="contacto">
+            <h5 class="text-light">Contacto</h5>
+            <!-- Imagen de Telefono -->
+            <img src="" alt="">
+            <p class="text-light">011-4587-9562</p>
+            <!-- Imagen de mail -->
+            <img src="" alt="">
+            <p class="text-light">deliciasmirta@gmail.com</p>
+        </div>
+        <nav class="col-3">
+            <a href="https://www.whatsapp.com/"class="text-light" title="Acceso directo a nuestro whatsapp">Hacer pedido<img src="images/wp.png" alt="logo Whatsapp" class="imagenS"></a>
+        </nav>
+    </footer>
+    <!-- Fin footer -->
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+</body>
+</html>

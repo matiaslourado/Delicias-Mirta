@@ -1,0 +1,6 @@
+@mixin general($size, $color) {
+    font-family: 'Caveat', cursive;
+    font-size: $size;
+    padding: 0 auto;
+    color: $color;
+}

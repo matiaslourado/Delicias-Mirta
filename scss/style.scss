@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+@import "../scss/component/dropdown";
+@import "../scss/component/carousel";
+@import "../scss/component/nosotras";
+@import "../scss/component/productos";
+@import "../scss/component/footer";
+@import "../scss/base/listasymapas";
+@import "../scss/base/mixin";
+@import "../scss/base/variables";
+
+
+/* Header */
+
+.imagenS {
+    width: 30px;
+    height: 30px;
+}
+.imagenM {
+    width: 75px;
+    height: 75px;
+}
+.imagenL {
+    width: 800px;
+    height: 500px;
+}
+.imagen-productos {
+    width: 400px;
+    height: 250px;
+}
+.imagen-nosotras {
+    width: 500px;
+    height: 650px;
+}

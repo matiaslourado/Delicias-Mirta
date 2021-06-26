@@ -1,0 +1,29 @@
+@import "../base/variables";
+@import "../base/listasymapas";
+@import "../base/mixin";
+
+.contenedor-productos {
+    background-color: #87CEEB;
+}
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    color: #000080;
+    padding: 30px;
+}
+h4 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color: #00008B;
+    padding: 0 auto;
+}
+.parrafo {
+    @include general(24px, #2e2bb1)
+}
+.lista {
+    @include general(20px, #0000FF)
+}

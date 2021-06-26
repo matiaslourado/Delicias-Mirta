@@ -1,0 +1,22 @@
+@import "../base/variables";
+@import "../base/listasymapas";
+@import "../base/mixin";
+
+.contenedor-nosotras {
+    background-color: #FFC0CB;
+    padding: 0 auto;
+}
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    color: #4B0082;
+    padding: 20px;
+}
+.nosotras-descripcion {
+    font-family: $fonts-gral;
+    font-size: 30px;
+    padding: 0 auto;
+    color: #800080;
+}

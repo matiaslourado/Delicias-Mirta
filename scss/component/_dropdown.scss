@@ -1,0 +1,39 @@
+@import "../base/variables";
+@import "../base/listasymapas";
+@import "../base/mixin";
+
+.container-menu {
+    padding: 0;
+}
+.text-menu {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+}
+div {
+    nav {
+        div {
+            div {
+                ul {
+                    li {
+                        a:hover {
+                            animation-duration: 1s;
+                            animation-name: aparecer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
