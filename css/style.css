@@ -18,13 +18,13 @@ a {
 }
 
 .text-menu {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-family: "Bai Jamjuree", sans-serif;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 5rem;
+  height: 5rem;
 }
 
 div nav div div ul li a:hover {
@@ -47,7 +47,7 @@ div nav div div ul li a:hover {
 }
 
 .pcarusel {
-  padding: 100px 0 20px 0;
+  padding: 6.2rem 0 1.2rem- 0;
 }
 
 .contenedor-nosotras {
@@ -57,16 +57,16 @@ div nav div div ul li a:hover {
 
 h1 {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 80px;
+  font-size: 5rem;
   letter-spacing: 2px;
   margin: 0 auto;
   color: #4B0082;
-  padding: 20px;
+  padding: 1.2rem;
 }
 
 .nosotras-descripcion {
   font-family: "Caveat", cursive;
-  font-size: 30px;
+  font-size: 2rem;
   padding: 0 auto;
   color: #800080;
 }
@@ -77,16 +77,16 @@ h1 {
 
 h3 {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 80px;
+  font-size: 5rem;
   letter-spacing: 2px;
   margin: 0 auto;
   color: #000080;
-  padding: 30px;
+  padding: 2rem;
 }
 
 h4 {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: 1px;
   margin: 0 auto;
   color: #00008B;
@@ -95,42 +95,42 @@ h4 {
 
 .parrafo {
   font-family: "Caveat", cursive;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 0 auto;
   color: #2e2bb1;
 }
 
 .lista {
   font-family: "Caveat", cursive;
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 0 auto;
   color: #0000FF;
 }
 
 /* Header */
 .imagenS {
-  width: 30px;
-  height: 30px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .imagenM {
-  width: 75px;
-  height: 75px;
+  width: 4.6rem;
+  height: 4.6rem;
 }
 
 .imagenL {
-  width: 800px;
-  height: 500px;
+  width: 50rem;
+  height: 31.2rem;
 }
 
 .imagen-productos {
-  width: 400px;
-  height: 250px;
+  width: 25rem;
+  height: 15.6rem;
 }
 
 .imagen-nosotras {
-  width: 500px;
-  height: 650px;
+  width: 31.2rem;
+  height: 40.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
